@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  height: 50px;
+  cursor: pointer;
+}
+
+.logo-sm {
+  height: 50px;
+  cursor: pointer;
+}
+
+.logo-md {
+  height: 100px;
+  cursor: pointer;
+}
+
+.logo-lg {
+  height: 200px;
+  cursor: pointer;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.justify-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.nav-ul li {
+  display: inline-block;
+}
+
+.nav-ul li a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-ul li a:hover {
+  color: yellow;
+}
+
+@media (max-width: 600px) {
+  .nav-ul li {
+    display: none;
+  }
+}
+
+.p-1 {
+  padding: 5px;
+}
+
+.p-2 {
+  padding: 10px;
+}
+
+.p-3 {
+  padding: 15px;
+}
+
+.p-4 {
+  padding: 20px;
+}
+
+.p-5 {
+  padding: 25px;
+}
+
+.p-tb-1 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.m-1 {
+  margin: 5px;
+}
+
+.m-2 {
+  margin: 10px;
+}
+
+.m-3 {
+  margin: 15px;
+}
+
+.m-4 {
+  margin: 20px;
+}
+
+.m-5 {
+  margin: 25px;
+}
+/*# sourceMappingURL=style.css.map */
