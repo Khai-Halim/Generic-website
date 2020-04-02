@@ -4,17 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Generic Website</title>
+    <title>Hamburger</title>
 </head>
 <body>
-    <div class="d-flex justify-between p-5">
-        <img src="images/logo.jpg" alt="" class="logo">
-        <ul class="nav-ul">
-            <li><a href="#" class="p-2">Home</a></li>
-            <li><a href="#" class="p-2">About</a></li>
-            <li><a href="#" class="p-2">Services</a></li>
-            <li><a href="#" class="p-2" >Contact</a></li>
-        </ul>
-    </div>
+    <header>
+        <!--NAVBAR-->
+        <div class="bg-1">
+            <div id="header" class="wrapper d-flex justify-between"  >
+                <a href="index.html" class="logo"><span>Logo</span></a>
+                <input type="checkbox" id="checkbox" class="d-none">
+                <label for="checkbox" id="label" class="d-none"><span class="d-block my-4"></span></label>
+                <nav id="nav">
+                    <ul>
+                        <li class="d-inline-block"><a href="index.html" class="d-inline-block text-1">Home</a></li>
+                        <li class="d-inline-block"><a href="#" class="d-inline-block text-1">About</a></li>
+                        <li class="d-inline-block"><a href="#" class="d-inline-block text-1">Services</a></li>
+                        <li class="d-inline-block"><a href="#" class="d-inline-block text-1">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!--BANNER-->
+    </header>
+    
+    
+    
 </body>
 </html>

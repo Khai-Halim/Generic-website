@@ -1,0 +1,81 @@
+#header{
+    #checkbox:checked ~ #nav{
+        display: block;
+     }
+    
+    #label{
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        >span{
+            height: 3px;
+            width: 35px;
+            background: $color-2;
+            &::before{
+                content: "";
+                display: block;
+                height: 3px;
+                width: 35px;
+                background: $color-2;
+                transform: translateY(10px);
+            }
+            &::after{
+                content: "";
+                display: block;
+                height: 3px;
+                width: 35px;
+                background: $color-2;
+                transform: translateY(-13px);
+            }
+        }
+    }
+    #nav{
+        height: initial;  
+        ul{
+            position: relative;
+            list-style: none;
+            li{     
+                a{         
+                    text-decoration: none;
+                    
+                    padding: 20px 5px;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }   
+}
+
+#banner{
+    height: 50vh;
+    background: green;
+}
+
+/***** MEDIA QUERIES TABLET & MOBILE ****/
+
+@media (max-width: 800px){
+    #header{
+        flex-direction: column;
+        #logo{
+            align-self: flex-start;
+        }
+        #label{
+            display: block;
+        }
+        #nav{
+            display: none;
+            ul{        
+                li{              
+                    display: block;
+                    text-align: center;
+                    a{
+                       
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    
+}
